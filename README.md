@@ -21,7 +21,15 @@
 - [lofty](https://github.com/Serial-ATA/lofty-rs)（音频元数据）
 - [notify](https://github.com/notify-rs/notify)（文件夹监听）
 
-## 📦 构建
+## 🚀 使用
+
+### 方式一：直接下载（推荐，普通用户）
+
+1. 前往 [Releases](../../releases) 页面
+2. 下载最新的 `bili-music.zip`
+3. 解压后双击 `bili-music.exe` 即可，**无需安装任何环境**
+
+### 方式二：从源码构建（开发者）
 
 ```bash
 # 需先安装 Rust 工具链与 MSVC 构建工具
@@ -30,12 +38,6 @@ cargo build --release
 ```
 
 > 首次构建若下载依赖慢，可配置 [rsproxy.cn](https://rsproxy.cn) 国内镜像。
-
-## 🚀 使用
-
-1. 双击 `bili-music.exe` 启动
-2. 顶部填入 B 站缓存路径（默认 `C:\Users\<用户名>\Videos\bilibili`），点「导入」
-3. 双击列表歌曲即可播放
 
 所有数据（数据库 + 提取的音频）都保存在程序所在目录，绿色便携，删除文件夹即彻底清除，不留痕迹。
 
