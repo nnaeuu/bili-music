@@ -13,6 +13,11 @@
 - 🧹 失效文件校验清理
 - 🚫 自动跳过 DRM 加密内容
 
+## 📸 演示截图
+
+<img width="810" height="552" alt="屏幕截图" src="https://github.com/user-attachments/assets/67e313d6-3f5e-46d0-aebb-f87842d3749a" />
+
+
 ## 🛠️ 技术栈
 
 - [Rust](https://www.rust-lang.org/) + [egui](https://github.com/emilk/egui)（GUI）
@@ -53,6 +58,7 @@ src/
 ├── store.rs   # 数据访问层（曲目/标签/歌单）
 └── watch.rs   # 文件夹监听（notify）
 ```
+
 
 ## ⚠️ 免责声明
 
